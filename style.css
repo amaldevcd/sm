@@ -1,0 +1,11 @@
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    /* background:url("img1.jpg"); */
+    background-image:linear-gradient(to right, rgba(119, 108, 108, 0.6) 10%, rgba(170, 163, 163, 0.6) 35%),url("img1.jpg");)
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0 250px;
+
+}
