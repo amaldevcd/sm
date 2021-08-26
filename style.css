@@ -4,6 +4,10 @@
     padding:0;
     /* overflow-x: hidden; */
 }
+html
+{
+    scroll-behavior: smooth;
+}
 section
 {
     padding-top: 50px;
@@ -81,7 +85,7 @@ section
 
 .card-img-top {
     width: 100%;
-    min-height: 25vh; 
+    height: 350px; 
     object-fit: cover;
     }
 
@@ -149,15 +153,18 @@ footer h6 {
 .footer-links
 {
     padding-left: 0;
+    position: relative;
     list-style-type:none;
 }
 .footer-links li
 {
-    display: block;
+    display: flex;
+    padding-bottom: 8px;
 }
-.footer-link.inline li
+.footer-links .inline li
 {
     display: inline-block;
+   
 }
 footer a:hover
 {
