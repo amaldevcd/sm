@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+
 *
 {
     margin:0;
@@ -7,6 +10,10 @@
 html
 {
     scroll-behavior: smooth;
+}
+body
+{
+    font-family: Niramit;
 }
 section
 {
@@ -41,7 +48,8 @@ section
 .welcome-txt
 {
     line-height: 1.5em;
-    font-size: 1.5em;
+    font-size: 20px;
+    font-family: Niramit;
 }
 .welcome-image
 {
